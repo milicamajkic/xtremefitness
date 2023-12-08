@@ -1,0 +1,239 @@
+@media only screen and (max-width: 500px) {
+
+
+  .stranica{
+    height: 80vh;
+    font-family: helvetica;
+    padding-left: 10px;
+  }
+  #pocetna{
+    height:75vh;
+  }
+  #logoZaglavlje{
+    float:left;
+    margin-top:2vh;
+    margin-left: 28vw;
+  }
+  #meni{
+    margin-top: 1vh;
+  }
+  #naslovnaSlika{
+    width: 90vw;
+    height: auto;
+    padding-top: 5vh;
+    }
+
+    #naslovNaPocetnoj{
+      position:absolute; top: 49vh;
+      left:15vw;
+      font-size:2.2em;
+    }
+    #podnaslovNaPocetnoj{
+      position:absolute;
+      top: 58vh;
+      left:10vw;
+      width:80vw;
+      font-size:0.8em;
+    }
+    #klikNaPocetnoj{
+      position:absolute;
+      bottom: 12vh;
+      left:35vw;
+    }
+
+    .podnaslov{
+      height: 20vh;
+      width: 90vw;
+      font-size: 0.8em;
+      color: gray;
+      font-family: helvetica;
+    }
+
+    .slika_o_nama, .tekst_o_nama{
+      width: 93vw;
+    }
+
+    #pridruziSe{
+      margin-top: 35vh;
+      height:83vh;
+      margin-bottom: 4vh;
+    }
+
+    .registracija{
+      margin-top: 2vh;
+      height: 53vh;
+      width: 80vw;
+      border: 3px solid rgba(34,181,221,255);
+      border-radius: 20px;
+      font-size: 16px;
+      padding: 2vh;
+    }
+
+    #radioPol{
+      height:2vh;
+      width:6%;
+      margin-top:15px;
+    }
+    #tekstPol{
+      width:30%;
+      margin-top:5px;
+    }
+    #vrednostTezine, #vrednostVisine{
+      margin-top:15px;
+      margin-left: 25px;
+    }
+    #paketi{
+      width:95%;
+      }
+      #datum{
+        width:95%;
+      }
+      #dodatniTekst{
+        width:15vw;
+        margin-top:0px;
+      }
+    #cela{
+      width: 90vw;
+    }
+    .kartica{
+      width: 44vw;
+      margin-right: 2vw;
+      margin-top: 2vh;
+      font-family: helvetica;
+      float: left;
+    }
+    .slika{
+      height: 30vh;
+      background-color: gray;
+      margin-bottom: 4px;
+    }
+    #treneri{
+      background-color:black;
+      height: 110vh;
+    }
+    .ime_trenera{
+      height: 4vh;
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+      background-color: rgba(34,181,221,255);
+      line-height: 4vh;
+      text-align: center;
+      border-radius: 5px;
+
+    }
+    .iznos{
+      height: 8vh;
+      line-height: 9vh;
+    }
+    .naziv{
+      height: 4vh;
+      font-size: 1.2em;
+      line-height: 4.5vh;
+    }
+    .opis{
+      height: 25vh;
+      font-size: 14px;
+      color: gray;
+      background-color: white;
+      text-align: center;
+      line-height: 3vh;
+      border: 1px solid lightgray;
+    }
+    #clanstvo{
+      height: 105vh;
+    }
+    #stavkaPaketa{
+      font-size:0.7em;
+      margin-left: -15px;
+    }
+    #stavkaTeskstaONama{
+      font-size:0.8em;
+    }
+
+    #klikPocetni{
+      margin-top:7vh;
+    }
+    #klikOsnovni{
+      margin-top:4vh;
+    }
+    #tekstUtiska{
+      text-align:center;
+      color:white;
+      margin-top:20vh;
+      padding-left:10vw;
+      width: 80vw;
+      text-align:center;
+    }
+    .potpis{
+      font-size: 20px;
+      font-weight: bold;
+      font-family: helvetica;
+      color: rgba(34,181,221,255);
+      text-align:center;
+      height: 60px;
+      margin-top: -8vh;
+
+    }
+    .tema{
+      width: 90vw;
+      height: 66vh;
+      margin-right: 2vw;
+      margin-bottom: 2vh;
+      font-family: helvetica;
+      float: left;
+      border: 1px solid lightgray;
+    }
+    .tekst{
+      height: 12vh;
+      font-size: 0.8em;
+      color:gray;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #blog{
+      height:230vh;
+    }
+    #oAutoru{
+      height: 67vh;
+    }
+
+    #dokumentacija{
+      height:30vh;
+    }
+    #kontakt{
+      height:110vh;
+    }
+    #logoKontakt{
+      width:50vw;
+      margin-left: 20vw;
+      margin-top:5vh;
+      }
+      .radno_vreme{
+        color:white;
+        font-size: 16px;
+        width: 80vw;
+        float: left;
+        margin-left: 5vw;
+        margin-top: 50px;
+      }
+      #kontaktPrvo{
+        color:gray;
+        width: 80vw;
+        line-height:25px;
+        margin-bottom:10px;
+      }
+      #kontaktDrugo{
+        color:gray;
+        line-height:5px;
+        width: 80vw;
+      }
+      #podnaslovClanstvo{
+        height: 12vh;
+      }
+      #slikaOAutoru{
+        height: 50vh;
+        width: auto;
+      }
+}

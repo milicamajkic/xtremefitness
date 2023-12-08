@@ -1,0 +1,466 @@
+
+
+#sviUtisci{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+.utisci{
+  display: none;
+}
+.stranica{
+  height: 750px;
+  font-family: helvetica;
+  padding-left: 300px;
+
+}
+.naslov{
+  height: 60px;
+  font-size: 35px;
+  color: black;
+  font-family: helvetica;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.podnaslov{
+  height: 100px;
+  width: 65vw;
+  font-size: 16px;
+  color: gray;
+  font-family: helvetica;
+}
+
+.kartica{
+  width: 16vw;
+  margin-right: 1vw;
+  font-family: helvetica;
+  float: left;
+}
+.iznos{
+  height: 120px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(53,195,234,255);
+  text-align: center;
+  line-height: 120px;
+}
+.naziv{
+  height: 50px;
+  font-size: 25px;
+  color: white;
+  background-color: rgba(34,181,221,255);
+  text-align: center;
+  line-height: 50px;
+}
+.opis{
+  height: 37vh;
+  font-size: 16px;
+  color: gray;
+  background-color: white;
+  text-align: center;
+  line-height: 5vh;
+  border: 1px solid lightgray;
+
+}
+ul{
+  list-style-type: none;
+  text-align: left;
+
+}
+
+.klik{
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(34,181,221,255);
+  text-align: center;
+  line-height: 40px;
+  margin: auto;
+
+}
+.klik:hover{
+  cursor: pointer;
+
+}
+.slika{
+  height: 400px;
+  background-color: gray;
+  margin-bottom: 4px;
+}
+
+.ime_trenera{
+  height: 60px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: rgba(34,181,221,255);
+  line-height: 60px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+.potpis{
+  font-size: 22px;
+  font-weight: bold;
+  font-family: helvetica;
+  color: rgba(34,181,221,255);
+  text-align:center;
+  height: 60px;
+
+}
+.tema{
+  width: 20vw;
+  margin-right: 2vw;
+  font-family: helvetica;
+  float: left;
+  border: 1px solid lightgray;
+}
+.datum_teme{
+  height: 75px;
+  width: 45px;
+  color: white;
+    background-color: rgba(34,181,221,255);
+    padding: 10px;
+    line-height: 25px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -80px;
+    margin-left: 20px;
+
+}
+
+.naziv_teme{
+  height: 90px;
+  font-size: 25px;
+  color: rgba(34,181,221,255);
+  line-height: 12vh;
+  margin-left: 10px;
+}
+
+.objavio{
+  height: 30px;
+  font-size: 15px;
+  color: grey;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.tekst{
+  height: 160px;
+  font-size: 15px;
+  color:gray;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logo{
+  color: gray;
+  font-size: 20px;
+  width: 15vw;
+  float: left;
+}
+
+.radno_vreme{
+  color:white;
+  font-size: 18px;
+  width: 25vw;
+  float: left;
+  margin-left: 5vw;
+  margin-top: 50px;
+}
+.kontakt{
+  color:white;
+  font-size: 18px;
+  width: 25vw;
+  float: left;
+  margin-left: 5vw;
+  margin-top: 50px;
+}
+.slika_o_nama{
+  height: 410px;
+  width: 32vw;
+  background-color: black;
+  float: left;
+}
+.tekst_o_nama{
+  height: 410px;
+  width: 32vw;
+  border: 1px solid lightgray;
+  float: left;
+  font-size: 18px;
+  color: gray;
+}
+#meni{
+  float: left;
+  margin-right: 2.5vw;
+  color:white;
+  cursor: pointer;
+  font-weight: bold;
+}
+#meni a:hover{
+  color: rgba(34,181,221,255);
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+.registracija{
+  margin-top: 2vh;
+  height: 53vh;
+  width: 50vw;
+  border: 3px solid rgba(34,181,221,255);
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 2vh;
+}
+
+.input_box{
+  display:flex;
+  flex-wrap: wrap;
+  width: 49%;
+  height: 7vh;
+  padding-bottom: 15px;
+  float: left;
+  margin: 1px;
+
+}
+.input_box label{
+  width: 98%;
+  margin-top: 5px;
+  margin-left: 5px;
+
+  padding-top: 10px;
+}
+.input_box input{
+  width: 95%;
+  padding-left: 5px;
+  margin-left: 5px;
+
+  height: 4vh;
+  border-radius: 8px;
+  border: 1px solid rgba(34,181,221,255);
+  background: rgba(34,181,221,255);
+  color:white;
+  font-weight: bold;
+  font-size: 16px;
+}
+::placeholder {
+  color: white;
+  opacity: 0.8;
+  font-weight: normal;
+}
+#meniZaglavlje{
+  background-color:black;
+  height:10vh;
+}
+#pocetna{
+  margin:0px;
+  padding:0px;
+  background-color:black;
+  height:88vh;
+}
+#naslovnaSlika{
+  height:87vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#naslovNaPocetnoj{
+  position:absolute; top: 30vh;
+  color:white;
+  left:20vw;
+  font-size:60px;
+}
+
+#podnaslovNaPocetnoj{
+  position:absolute;
+  top: 50vh;
+  left:20vw;
+  width:60vw;
+  color:white;
+  font-size:16px;
+}
+#klikNaPocetnoj{
+  position:absolute;
+  top: 70vh;
+  left:20vw;
+}
+#o_nama{
+  height:85vh;
+}
+#slikaONama{
+  width: 100%;
+  height:100%;
+}
+#tekstONama{
+  margin:30px;
+}
+#stavkaTeskstaONama{
+  margin:30px;
+  font-size:16px;
+}
+#pridruziSe{
+  height:70vh;
+}
+#emailGreska{
+  color:red
+}
+#radioPol{
+  height:2vh;
+  width:5%;
+  margin-top:15px;
+}
+#tekstPol{
+  width:20%;
+  margin-top:5px;
+}
+#vrednostTezine, #vrednostVisine{
+  margin-top:15px;
+}
+#tezinaTekst, #visinaTekst{
+  width:20%;
+}
+#paketi{
+  height:4vh;
+  width:50%;
+  background:rgba(34,181,221,255);
+  font-size:16px;
+  color:white;
+  font-weight:bold;
+  border-radius:8px;
+  padding-left:5px;
+}
+#datum{
+  width:50%;
+}
+#dodatkiCheck{
+  height:2vh;
+ width:5%;
+ margin-top:10px;
+}
+#dodatniTekst{
+  width:20%;
+  margin-top:0px;
+}
+#klikPrijava{
+  margin-top:10px;
+  margin-right:10px;
+  border:none;width:100%;
+  font-size:18px;
+  font-weight:bold;
+}
+#slikaTrenera{
+  width: 100%;
+  height:100%;
+}
+#stavkaPaketa{
+  font-size:14px;
+}
+#klikPocetni{
+  margin-top:12vh;
+}
+#klikOsnovni{
+  margin-top:7vh;
+}
+#stranicUtisci{
+  background-color:black;
+  height: 450px;
+  padding-left:0px;
+}
+#glavaUtiska{
+  width:120px;
+  height:120px;
+  border-radius:60px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+}
+#tekstUtiska{
+  text-align:center;
+  color:white;
+  margin-top:150px;
+  padding-left:300px;
+  text-align:center;
+}
+#blog{
+  height:800px;
+}
+#slikaBlog{
+  width:100%
+}
+#klikBlog{
+  margin-left: 10px;
+  margin-bottom:10px;
+}
+#oAutoru{
+  background-color:black;
+  height:400px;
+}
+#naslovOAutoru{
+  color:white;
+}
+#dokumentacija{
+  height:400px;
+}
+#kontakt{
+  background-color:black;
+  height:400px;
+}
+#logoKontakt{
+  width:200px;
+  margin-top:50px;
+  }
+#kontaktPrvo{
+  color:gray;
+  line-height:5px;
+  margin-bottom:30px;
+}
+#kontaktDrugo{
+  color:gray;
+  line-height:5px;
+}
+#logoZaglavlje{
+  float:left;
+  margin-top:1%;
+}
+#stavkeMenija{
+  color:white;
+  float:left;
+  margin-left:1%;
+  font-size:14px;
+  margin-top:4%;
+}
+#treneri{
+  background-color:black;
+}
+#naslovTreneri{
+
+  color:white;
+}
+.slika_o_nama, .tekst_o_nama{
+  width: 33vw;
+  float: left;
+}
+#slikaOAutoru{
+  width: 200px;
+  height: auto;
+
+}

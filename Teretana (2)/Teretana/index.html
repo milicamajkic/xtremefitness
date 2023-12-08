@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XTREME FITNES</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="zamale.css">
+    <link rel="icon" href="logo-mali.png" type="image/gif" />
+
+  </head>
+  <body>
+
+    <div class="stranica" id="meniZaglavlje">
+      <img src="logo.png" id="logoZaglavlje" alt="" >
+      <ul id="stavkeMenija" >
+        <li id="meni"><a href="#pocetna">Početna</a></li>
+        <li id="meni"><a href="#o_nama">O nama</a></li>
+        <li id="meni"><a href="#treneri">Treneri</a></li>
+        <li id="meni"><a href="#clanstvo">Članstvo</a></li>
+        <li id="meni"><a href="#utisci">Utisci</a></li>
+        <li id="meni"><a href="#blog">Blog</a></li>
+        <li id="meni"><a href="#kontakt">Kontakt</a></li>
+        <li id="meni"><a href="#oAutoru">O autoru</a></li>
+        <li id="meni"><a href="#dokumentacija">Dokumentacija</a></li>
+      </ul>
+    </div>
+
+    <div class="stranica" id ="pocetna">
+      <img src="nasl2.jpg" alt="" id="naslovnaSlika" >
+      <div class="naslov" id="naslovNaPocetnoj"  >
+        Sa Nama Ste Fit
+      </div>
+      <div class="podnaslov" id="podnaslovNaPocetnoj" >
+        U našem klubu od preko 1000m2 i desetinama sprava na raspolaganju, održaćeš jak tempo treninga bez obzira na broj vežbača u prostoru. Industrijska ventilacija i klimatizacija su tu da ti obezbede svež vazduh i stabilnu temperaturu za vežbanje.
+        Naš stručni tim će te savetovati i pomagati da pravilno vežbaš, sačuvaš zdravlje i postigneš rezultate.
+      </div>
+
+      <div class="klik" id="klikNaPocetnoj" >
+        <a href="#pridruziSe">PRIDRUŽI SE</a>
+      </div>
+    </div>
+
+    <div class="stranica"  id="o_nama">
+      <div class="naslov">
+        O NAMA
+      </div>
+      <div class="podnaslov" >
+        Od 2004. godine rastemo kao porodična kompanija posvećena filozofiji zdravog života, lepog i snažnog tela. U potpunosti smo posvećeni svojim
+        kliijentima. Verujemo da, osim dobrog vežbanja, moramo pružiti i ostale aspekte profesionalne usluge: profesionalnu osnovnu i prateću opremu,
+        maksimalnu udobnost, vrhunsku higijenu, privatnost i profesionalnos osoblja. Naš uspeh je klijent koji se uvek vraća jer mu je lepo da vežba kod nas.
+      </div>
+
+      <div class="slika_o_nama">
+          <img src="Gym.png" id="slikaONama" alt="" >
+      </div>
+
+      <div class="tekst_o_nama">
+        <p id="tekstONama">
+          <p id="stavkaTeskstaONama"> Bodybilding zona raspolaže izuzetnim uslovima za grupne i samostalne treninge. Opremljena je savremenim spravama za vežbanje brendova Technogym i Hammer Strength, takođe raspolaže delom za funkcionalne treninge.  </p>
+          <p id="stavkaTeskstaONama"> Aerobik zona je opremljena odgovarajućim rekvizitima: tegovi, palice, elastične trake, lopte, steperi i disco rasvetom. U njoj se održavaju LES MILLS programi BODYCOMBAT i BODYPUMP, aerobik, zumba, yoga i pilates. Svi programi su namenjeni vežbačima oba pola. </p>
+          <p id="stavkaTeskstaONama"> Kardio zona raspolaže sa više od 20 sprava firme Tehnogym među kojima su: trake za trčanje, kardio i spining bicikli, steperi i sprave za nordijsko trčanje. </p>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="stranica"  id="pridruziSe">
+      <div class="naslov" >
+      PRIDRUŽI SE
+        <div class="registracija">
+          <form action="#" method="POST" id="forma">
+              <div class = "input_box">
+                <label for="Ime">Ime</label>
+                <input type="text" name="Ime" placeholder="unesite ime" required>
+              </div>
+              <div class = "input_box">
+                <label for="Prezime">Prezime</label>
+                <input type="text" name="Prezime" placeholder="unesite prezime" required>
+              </div>
+              <div class = "input_box">
+                  <label for="Email">E-mail</label>
+                  <input type="email" name="Email" placeholder="unesite E-mail" required><span  id="emailGreska"></span>
+              </div>
+
+              <div class = "input_box">
+                <label for="pol">Pol</label>
+                <input id="radioPol" type="radio" name="Pol" value="Muski">
+                <label id="tekstPol"  for="Muski">Muški</label>
+                <input id="radioPol" type="radio" name="Pol" value="Zenski">
+                <label id="tekstPol" for="Zenski">Ženski</label>
+              </div>
+
+              <div class = "input_box">
+                <label for="tezina" id="tezinaTekst" >Težina:</label>
+                <span id="vrednostTezine" >50</span>
+                <span id="vrednostTezine">kg</span>
+                <input type="range" min="50" max="120" name="Tezina" value="50" id="tezina">
+              </div>
+              <div class = "input_box">
+                  <label for="visina" id="visinaTekst" >Visina:</label>
+                  <span id="vrednostVisine" >150</span>
+                  <span id="vrednostTezine">cm</span>
+                  <input type="range" min="150" max="220" name="Visina" value="150" id="visina">
+              </div>
+              <div class = "input_box">
+                <label for="Paket">Paket:</label>
+                <select id="paketi"  name="Paket">
+                    <option>Početni</option>
+                    <option>Osnovni</option>
+                    <option>Napredni</option>
+                    <option>Profi</option>
+                </select>
+              </div>
+
+              <div class = "input_box">
+                <label for="Datum">Pocetak clanstva</label>
+                <input id="datum"  type="date" name="Datum">
+              </div>
+              <div class="input_box" id="cela">
+                <label for="Dodatni"  >Dodatni programi treniranja:</label>
+                <input  id="dodatkiCheck"  type="checkbox" name="pilates" value="pilates">
+                <label  id="dodatniTekst"  for="pilates">Pilates</label>
+                <input  id="dodatkiCheck" type="checkbox" name="joga" value="joga">
+                <label  id="dodatniTekst" for="joga">Joga</label>
+                <input  id="dodatkiCheck" type="checkbox" name="zumba" value="zumba">
+                <label  id="dodatniTekst" for="zumba">Zumba</label>
+              </div>
+
+
+              <input class="klik" id="klikPrijava"  type="submit" value="PRIDRUŽI SE" id="potvrdi">
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="stranica"  id="treneri">
+      <div class="naslov" id="naslovTreneri">
+        NAŠI TRENERI
+      </div>
+      <div class="podnaslov">
+        Profesionalni trener je uz polaznika od početka do kraja treninga, što podrazumeva da on programira i vodi trening i kontroliše izvodjenje vežbi. Na ovaj način profesionalni trener izvlači maksimum od svakog polaznika, prati napredak i pomaže da se željeni rezultati postignu u što kraćem periodu, a da pritom zdravlje polaznika bude na prvom mestu.
+        Profesionalni trener kreira trening prema potrebi polaznika.
+        Profesionalni trener povećava motivisanost polaznika za rad, bira najbolje tehnike vežbanja i time opasnost od potencijalnih povreda svodi na minimum.
+      </div>
+      <div class="kartica">
+        <div class="slika">
+          <img src="trener1.jpg" alt="" id="slikaTrenera" >
+        </div>
+        <div class="ime_trenera">
+            Peđa
+        </div>
+      </div>
+      <div class="kartica">
+        <div class="slika">
+          <img src="trener2.jpg" alt="" id="slikaTrenera">
+        </div>
+        <div class="ime_trenera">
+            Luka
+        </div>
+      </div>
+      <div class="kartica">
+        <div class="slika">
+          <img src="trener3.jpg" alt="" id="slikaTrenera">
+        </div>
+        <div class="ime_trenera">
+            Tea
+        </div>
+      </div>
+      <div class="kartica">
+        <div class="slika">
+<img src="trener4.jpg" alt="" id="slikaTrenera">
+        </div>
+        <div class="ime_trenera">
+            Andjela
+        </div>
+      </div>
+    </div>
+
+
+    <div class="stranica" id="clanstvo">
+      <div class="naslov">
+        ČLANSTVO
+      </div>
+      <div class="podnaslov" id="podnaslovClanstvo">
+        Prirpemili smo više člaskih programa kako bi ste bili u prilici da izaberete ono što najviše odgovara vašo vežbačkoj rutini. Na ovaj način platićete samo ono što zaista koristite.
+        Ukoliko poželite više nego što vaš članski paktet obuhvata, svoj profil možete nadograditi u svakom trenutnku. </div>
+      <div class="kartica">
+        <div class="iznos">
+        1000
+        </div>
+        <div class="naziv">
+          POČETNI
+        </div>
+        <div class="opis">
+          <ul>
+            <li id="stavkaPaketa" >Trening tri puta sedmično</li>
+            <li id="stavkaPaketa">od 10h do 20h</li>
+            <li id="stavkaPaketa">jedna lokacija</li>
+
+          </ul>
+          <div class="klik" id="klikPocetni" >
+              <a href="#pridruziSe">PRIDRUŽI SE</a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="kartica">
+        <div class="iznos">
+        2000
+        </div>
+        <div class="naziv">
+          OSNOVNI
+        </div>
+        <div class="opis">
+          <ul>
+            <li id="stavkaPaketa">Neograničen broj treninga</li>
+            <li id="stavkaPaketa">od 10h do 20h</li>
+            <li id="stavkaPaketa">jedna lokacija</li>
+            <li id="stavkaPaketa">grupni treninzi</li>
+
+          </ul>
+          <div class="klik" id="klikOsnovni">
+              <a href="#pridruziSe">PRIDRUŽI SE</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="kartica">
+        <div class="iznos">
+        3000
+        </div>
+        <div class="naziv">
+          NAPREDNI
+        </div>
+        <div class="opis">
+          <ul>
+            <li id="stavkaPaketa">Neograničen broj treninga</li>
+            <li id="stavkaPaketa">od 07h do 22h</li>
+            <li id="stavkaPaketa">sve lokacije</li>
+            <li id="stavkaPaketa">grupni i individualni treninzi</li>
+
+          </ul>
+          <div class="klik" id="klikOsnovni">
+              <a href="#pridruziSe">PRIDRUŽI SE</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="kartica">
+        <div class="iznos">
+        4000
+        </div>
+        <div class="naziv">
+          <a href="#pridruziSe">PRIDRUŽI SE</a>
+        </div>
+        <div class="opis">
+          <ul>
+            <li id="stavkaPaketa">Neograničen broj treninga</li>
+            <li id="stavkaPaketa">od 07h do 22h</li>
+            <li id="stavkaPaketa">sve lokacije</li>
+            <li id="stavkaPaketa">grupni i individualni treninzi</li>
+            <li id="stavkaPaketa">rentiranje peškira i ormarića</li>
+          </ul>
+          <div class="klik" >
+              PRIDRUŽI SE
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id = "sviUtisci">
+      <div class="stranica utisci fade" id="stranicUtisci">
+          <div class="naslov">
+              <img src="glava.jpeg" alt="" id="glavaUtiska" >
+          </div>
+          <div class="podnaslov" id="tekstUtiska" >
+          U ovom klubu se oseća neka dobra energija, dolazak na trening više nije obaveza već izazov i zadovoljstvo        </div>
+          <div class="potpis" >
+              Petar Petrović
+          </div>
+      </div>
+      <div class="stranica utisci fade" id="stranicUtisci">
+          <div class="naslov">
+              <img src="glava2.jpg" alt="" id="glavaUtiska">
+          </div>
+          <div class="podnaslov" id="tekstUtiska">
+        Ovde sam ostvarila odlične rezultate uz podršku profesionalnog tima</div>
+          <div class="potpis" >
+              Milica Marković
+          </div>
+      </div>
+      <div class="stranica utisci fade" id="stranicUtisci">
+          <div class="naslov">
+              <img src="glava3.jpg" alt="" id="glavaUtiska">
+          </div>
+          <div class="podnaslov" id="tekstUtiska">
+              Odlični uslovi za trening    </div>
+          <div class="potpis" >
+              Janko Janković
+          </div>
+      </div>
+  </div>
+
+
+    <div class="stranica"  id="blog">
+        <div class="naslov">
+          BLOG
+        </div>
+        <div class="podnaslov" id="podnaslovClanstvo">
+          Uvek je zanimljivo pročitati šta releventni autori pišu na temu aktivnog vežbanja, dobre fizičke pripremljenosti i zdravog i lepog izgleda...
+        </div>
+        <div class="tema">
+          <div class="slika_teme">
+            <img src="blog1.jpg" alt="" id="slikaBlog" >
+          </div>
+          <div class="datum_teme">
+              10. Nov 2023
+          </div>
+          <div class="naziv_teme">
+                Da li ste fit?
+          </div>
+          <div class="objavio">
+              Admin
+          </div>
+          <div class="tekst">
+            Najnovija istraživanja bazirana na uzorku od više hiljda ispitanika bacaju sasvim novo svetlo na temu fizičkih performanski i zdravlja populacije. Dobijeni rezultati podstiču na pitanje 'Da li ste fit?'
+          </div>
+          <div class="klik" id="klikBlog" >
+              Više...
+          </div>
+        </div>
+
+        <div class="tema">
+          <div class="slika_teme">
+            <img src="blog2.jpg" alt="" id="slikaBlog">
+          </div>
+          <div class="datum_teme">
+              30. Nov 2023
+          </div>
+          <div class="naziv_teme">
+                Saveti za bolju kondiciju
+          </div>
+          <div class="objavio">
+              Admin
+          </div>
+          <div class="tekst">
+                Ulazak u svet aktivnih vežbača umnogome zavisi i od spremnosti tela da odgovori na početne fizičke izazove. Kondicija, kao opšte shvaćena spremnosti
+                organizma da aktivno percipita povećani fizički stimulans uslovljena je svakodnevnom rutinom, pa je dobro ispratiti savete za njeno poboljšanje.
+          </div>
+          <div class="klik" id="klikBlog">
+              Više...
+          </div>
+        </div>
+
+        <div class="tema">
+          <div class="slika_teme">
+            <img src="blog3.jpg" alt="" id="slikaBlog">
+          </div>
+          <div class="datum_teme">
+              2. Dec 2023
+          </div>
+          <div class="naziv_teme">
+                Oko sveta
+          </div>
+          <div class="objavio">
+              Admin
+          </div>
+          <div class="tekst">
+              Sa različitih meridijana dolaze nam različita iskustva o sklonostima vežbača. Da li različite preferencije u pogledu vrste i intenziteta treninga mogu biti osnov za
+              formulisanje boljeg individualnog plana?
+          </div>
+          <div class="klik" id="klikBlog">
+              Više...
+          </div>
+        </div>
+    </div>
+
+    <div class="stranica"  id="oAutoru">
+      <div class="naslov" id="naslovOAutoru" >
+        O AUTORU
+      </div>
+      <div class="podnaslov">
+          <img src="oAutoru.jpg" id="slikaOAutoru"><br>
+          Zovem se Milica Majkić. Studentkinja sam prve godine Visoke škole strukovnih studija za informacione i komunikacione tehnologije, smer internet tehnologije. Moj broj indeksa je 252/22
+      </div>
+    </div>
+    <div class="stranica"  id="dokumentacija">
+      <div class="naslov">
+        DOKUMENTACIJA
+      </div>
+      <div class="podnaslov">
+        Sajt je rađen u programskim jezicija: HTML, CSS i JavaScript i JQuery framework. Izgled sajta radjen je po uzoru na gotov template ali je celokupan kod radjen od nule. Funkcionalnosti sjta obezbeđene su pomocu JavaScript i JQuery, neke od njih su: slajder sa utiscima korisnika, validacija forme upotrebom Regex izraza i promena tekstualnih vrednosti u zavisnoti od vrednosti input-a.
+        <a href="Tehnička dokumentacija.pdf" style="color: blue;">Vise o dokumentaciji mozete procitati ovde</a>
+      </div>
+    </div>
+
+    <div class="stranica"  id="kontakt">
+      <div class="logo">
+        <img src="logo.png" alt="" id="logoKontakt" >
+        <br>
+        <br>
+
+      </div>
+      <div class="radno_vreme" >
+        <h2>RADNO VREME</h2>
+
+        <p>ponedeljak - petak</p>
+        <p id="kontaktPrvo" >07:00 - 22:00</p>
+
+        <p>subota - nedelja</p>
+        <p id="kontaktDrugo" >07:00 - 22:00</p>
+      </div>
+      <div class="kontakt">
+        <h2>KONTAKT</h2>
+
+        <p>Adresa:</p>
+        <p id="kontaktPrvo">Čačak, Gradsko šetalište bb</p>
+
+        <p>Email</p>
+        <p id="kontaktPrvo">office@extremefitness.rs</p>
+
+        <p>Telefon</p>
+        <p id="kontaktDrugo">+381 32 333 222</p>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
